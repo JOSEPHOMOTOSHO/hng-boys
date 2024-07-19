@@ -35,7 +35,7 @@ function verifySignature(req, res, buf, encoding) {
 }
 
 app.get("/" , (req, res)=>{
-    res.send("First test")
+    res.send("First test.");
 })
 
 app.post('/webhook', (req, res) => {
